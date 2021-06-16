@@ -1,0 +1,497 @@
+[03:13:09] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:13:10] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[03:13:13] [Worker-Main-2/INFO]: Loaded 7 recipes
+[03:13:17] [Server thread/INFO]: Starting minecraft server version 1.17
+[03:13:17] [Server thread/INFO]: Loading properties
+[03:13:17] [Server thread/INFO]: This server is running CraftBukkit version 3124-Spigot-66f9d3c-384e116 (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT)
+[03:13:17] [Server thread/WARN]: Failed to save user banlist: 
+java.io.FileNotFoundException: banned-players.json (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[?:?]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[?:?]
+	at com.google.common.io.Files.newWriter(Files.java:98) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.players.JsonList.save(JsonList.java:136) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.w(SourceFile:67) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:23) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:195) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:986) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:307) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+[03:13:17] [Server thread/WARN]: Failed to save operators list: 
+java.io.FileNotFoundException: ops.json (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[?:?]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[?:?]
+	at com.google.common.io.Files.newWriter(Files.java:98) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.players.JsonList.save(JsonList.java:136) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.A(SourceFile:99) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:28) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:195) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:986) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:307) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+[03:13:17] [Server thread/INFO]: Debug logging is disabled
+[03:13:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:13:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:13:17] [Server thread/INFO]: Default game type: SURVIVAL
+[03:13:17] [Server thread/INFO]: Generating keypair
+[03:13:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:13:18] [Server thread/INFO]: Using epoll channel type
+[03:13:20] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.2.2
+[03:13:20] [Server thread/INFO]: [HardcorePlus] Loading HardcorePlus v1.0.0
+[03:13:20] [Server thread/INFO]: [Chunky] Loading Chunky v1.2.86
+[03:13:20] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.22.0
+[03:13:20] [Server thread/INFO]: Preparing level "world"
+[03:13:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:13:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:44] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[03:13:45] [Worker-Main-2/INFO]: Preparing spawn area: 61%
+[03:13:45] [Server thread/INFO]: Time elapsed: 24121 ms
+[03:13:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:13:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:13:48] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[03:13:49] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[03:13:49] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[03:13:50] [Worker-Main-2/INFO]: Preparing spawn area: 10%
+[03:13:50] [Worker-Main-2/INFO]: Preparing spawn area: 26%
+[03:13:51] [Worker-Main-2/INFO]: Preparing spawn area: 34%
+[03:13:51] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:52] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:52] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:52] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:53] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:53] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:54] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:54] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:56] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:56] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:56] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:56] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:57] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:57] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:58] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:58] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:59] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:13:59] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:14:00] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:14:00] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:14:01] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:14:01] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:14:02] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[03:14:02] [Worker-Main-2/INFO]: Preparing spawn area: 45%
+[03:14:03] [Server thread/INFO]: Time elapsed: 17471 ms
+[03:14:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:14:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:14:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:14:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:14:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:14:05] [Worker-Main-2/INFO]: Preparing spawn area: 7%
+[03:14:05] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[03:14:06] [Worker-Main-2/INFO]: Preparing spawn area: 85%
+[03:14:06] [Server thread/INFO]: Time elapsed: 3487 ms
+[03:14:06] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.2.2
+[03:14:06] [Server thread/INFO]: [HardcorePlus] Enabling HardcorePlus v1.0.0
+[03:14:06] [Server thread/INFO]: [HardcorePlus] Hello Minecraft!
+[03:14:06] [Server thread/INFO]: [HardcorePlus] Config loaded.
+[03:14:06] [Server thread/INFO]: [Chunky] Enabling Chunky v1.2.86
+[03:14:07] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.22.0
+[03:14:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:14:07] [Server thread/INFO]: Done (46.403s)! For help, type "help"
+[03:14:07] [Server thread/INFO]: Starting remote control listener
+[03:14:07] [Server thread/INFO]: Thread RCON Listener started
+[03:14:07] [Server thread/INFO]: RCON running on 0.0.0.0:28016
+[03:14:12] [pool-6-thread-1/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 147 commits! Get the latest build at your favorite distribution center.
+
+Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
+Github: https://github.com/DiscordSRV/DiscordSRV/releases
+Direct Download: https://get.discordsrv.com
+
+[03:14:12] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[03:14:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] [JDA] WebSocket connection was closed and cannot be recovered due to identification issues
+CloseCode(4014 / Disallowed intents. Your bot might not be eligible to request a privileged intent such as GUILD_PRESENCES or GUILD_MEMBERS.)
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ==============================================================
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  *** PLEASE FOLLOW THE INSTRUCTIONS BELOW TO GET DiscordSRV TO WORK *** 
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  Your DiscordSRV bot does not have the Guild Presences and/or Server Members Intent!
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  DiscordSRV requires these intents to function. Instructions:
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]   1. Go to https://discord.com/developers/applications
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]   2. Click on the DiscordSRV bot
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]   3. Click on "Bot" on the left
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]   4. Enable the "PRESENCE INTENT" and "SERVER MEMBERS INTENT"
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]   5. Restart your server
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[03:14:13] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ==============================================================
+[03:14:13] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.22.0
+[03:14:18] [DiscordSRV - Shutdown/WARN]: [DiscordSRV] JDA took too long to shut down, skipping
+[03:14:18] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 5110ms
+[03:14:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5073ms or 101 ticks behind
+[04:24:14] [User Authenticator #1/INFO]: UUID of player BearFromMars is bd0381fd-a21c-4289-bdb7-24892bda8e47
+[04:24:16] [Server thread/INFO]: BearFromMars[/10.0.0.3:52094] logged in with entity id 130 at ([world]-17.737628454553782, 63.0, 279.73106032676975)
+[04:24:31] [Server thread/INFO]: BearFromMars issued server command: /gamemode survival
+[04:24:31] [Server thread/INFO]: [BearFromMars: Set own game mode to Survival Mode]
+[04:25:16] [Server thread/INFO]: BearFromMars issued server command: /time set day
+[04:25:16] [Server thread/INFO]: [BearFromMars: Set the time to 1000]
+[04:25:18] [Server thread/INFO]: BearFromMars lost connection: Disconnected
+[04:25:18] [Server thread/INFO]: BearFromMars left the game
+[04:32:02] [User Authenticator #2/INFO]: UUID of player Have__nt is 9088e56b-044b-451f-a78c-61c58067a13c
+[04:32:02] [Server thread/INFO]: Have__nt[/10.0.0.3:64339] logged in with entity id 493 at ([world]-136.5, 75.0, -249.5)
+[04:32:58] [Server thread/INFO]: Have__nt lost connection: Disconnected
+[04:32:58] [Server thread/INFO]: Have__nt left the game
+[21:48:16] [User Authenticator #3/INFO]: UUID of player BearFromMars is bd0381fd-a21c-4289-bdb7-24892bda8e47
+[21:48:18] [Server thread/INFO]: BearFromMars[/10.0.0.3:49967] logged in with entity id 834 at ([world]-74.84302270635897, 66.0, 292.93144091003967)
+[21:48:21] [Server thread/INFO]: BearFromMars issued server command: /kill
+[21:48:21] [Server thread/INFO]: BearFromMars died.
+[21:48:21] [Server thread/INFO]: [HardcorePlus] BearFromMars has lost permanent health.
+[21:48:21] [Server thread/INFO]: [BearFromMars: Killed BearFromMars]
+[21:48:26] [Server thread/INFO]: BearFromMars issued server command: /kill
+[21:48:26] [Server thread/INFO]: BearFromMars died.
+[21:48:26] [Server thread/INFO]: [HardcorePlus] BearFromMars has lost permanent health.
+[21:48:26] [Server thread/INFO]: [BearFromMars: Killed BearFromMars]
+[21:48:36] [Server thread/INFO]: BearFromMars issued server command: /hcp setmax BearFromMars 20
+[21:48:47] [User Authenticator #4/INFO]: UUID of player Creeper_Peace is 004c383f-ca83-4006-b93f-c57b8ff86424
+[21:48:47] [Server thread/INFO]: Creeper_Peace[/10.0.0.3:51783] logged in with entity id 1335 at ([world]-136.5, 75.0, -247.5)
+[21:49:12] [Async Chat Thread - #0/INFO]: <BearFromMars> onbce u kill the dragon u go back to max health
+[21:49:33] [Async Chat Thread - #0/INFO]: <Creeper_Peace> cant break blocks
+[21:49:37] [Async Chat Thread - #0/INFO]: <BearFromMars> oh yeah
+[21:49:40] [Async Chat Thread - #0/INFO]: <BearFromMars> spawn prot
+[21:49:51] [Async Chat Thread - #0/INFO]: <BearFromMars> go out 1128 blocks
+[21:49:53] [Async Chat Thread - #0/INFO]: <BearFromMars> 128
+[21:50:06] [Server thread/INFO]: BearFromMars issued server command: /tp Creeper_Peace
+[21:50:06] [Server thread/INFO]: [BearFromMars: Teleported BearFromMars to Creeper_Peace]
+[21:50:06] [Server thread/WARN]: BearFromMars moved too quickly! -7.1659609815961005,-16.178827391782647,-158.5823764373552
+[21:51:58] [Async Chat Thread - #1/INFO]: <BearFromMars> wtf
+[21:52:03] [Async Chat Thread - #1/INFO]: <BearFromMars> i put 1 wood and got a hoe
+[21:52:36] [Async Chat Thread - #1/INFO]: <Creeper_Peace> wood tools (excluding wood pic) is useless because it's so easy to get stone
+[21:52:46] [Async Chat Thread - #1/INFO]: <BearFromMars> yeah
+[21:52:52] [Async Chat Thread - #1/INFO]: <BearFromMars> theyre good for fuel thoo
+[21:53:14] [Async Chat Thread - #1/INFO]: <Creeper_Peace> coal is pretty common, but if you cant find it you can always make charcoal
+[21:53:21] [Server thread/INFO]: Creeper_Peace has made the advancement [Stone Age]
+[21:53:37] [Async Chat Thread - #1/INFO]: <BearFromMars> i make house in ground
+[21:53:44] [Async Chat Thread - #1/INFO]: <BearFromMars> u shouldf too
+[21:53:48] [Async Chat Thread - #1/INFO]: <BearFromMars> then we can have tunnels
+[21:53:58] [Async Chat Thread - #1/INFO]: <Creeper_Peace> sure
+[21:54:55] [Server thread/INFO]: Creeper_Peace has made the advancement [Getting an Upgrade]
+[21:55:06] [Async Chat Thread - #2/INFO]: <BearFromMars> we need sheps
+[21:55:14] [Async Chat Thread - #2/INFO]: <Creeper_Peace> wait
+[21:55:27] [Async Chat Thread - #2/INFO]: <Creeper_Peace> how do you have stone shovel and no advancement
+[21:55:32] [Async Chat Thread - #2/INFO]: <BearFromMars> already got it
+[21:55:39] [Async Chat Thread - #2/INFO]: <Creeper_Peace> oh ok
+[21:56:33] [Server thread/INFO]: BearFromMars issued server command: /give @s white_wool 4
+[21:56:33] [Server thread/INFO]: [BearFromMars: Gave 4 [White Wool] to BearFromMars]
+[21:56:36] [Async Chat Thread - #2/INFO]: <BearFromMars> got wool
+[21:56:41] [Async Chat Thread - #2/INFO]: <Creeper_Peace> noice
+[21:56:56] [Async Chat Thread - #2/INFO]: <BearFromMars> only 4
+[21:58:03] [Async Chat Thread - #3/INFO]: <BearFromMars> slept
+[21:58:09] [Async Chat Thread - #3/INFO]: <Creeper_Peace> k
+[21:58:14] [Async Chat Thread - #3/INFO]: <Creeper_Peace> barely alive
+[21:58:22] [Async Chat Thread - #3/INFO]: <BearFromMars> oof
+[21:58:27] [Async Chat Thread - #3/INFO]: <BearFromMars> time to risk
+[21:58:36] [Server thread/INFO]: Creeper_Peace died.
+[21:58:36] [Server thread/INFO]: [HardcorePlus] Creeper_Peace has lost permanent health.
+[21:58:38] [Async Chat Thread - #3/INFO]: <BearFromMars> OMG
+[21:58:46] [Async Chat Thread - #3/INFO]: <BearFromMars> 897349487589 creepers
+[21:58:56] [Async Chat Thread - #3/INFO]: <Creeper_Peace> idk how i died
+[21:59:06] [Async Chat Thread - #3/INFO]: <BearFromMars> killed 1
+[21:59:21] [Async Chat Thread - #3/INFO]: <BearFromMars> come back
+[21:59:53] [Async Chat Thread - #3/INFO]: <BearFromMars> u there?
+[21:59:57] [Async Chat Thread - #3/INFO]: <Creeper_Peace> ye
+[22:00:06] [Async Chat Thread - #3/INFO]: <Creeper_Peace> looking for my things
+[22:01:35] [Async Chat Thread - #4/INFO]: <BearFromMars> my neck is spasming, weird
+[22:01:57] [Async Chat Thread - #4/INFO]: <Creeper_Peace> I think my things are gone
+[22:02:02] [Async Chat Thread - #4/INFO]: <BearFromMars> found them
+[22:02:04] [Async Chat Thread - #4/INFO]: <BearFromMars> just now
+[22:02:06] [Async Chat Thread - #4/INFO]: <BearFromMars> LOL
+[22:02:15] [Async Chat Thread - #4/INFO]: <BearFromMars> went over a hill and boom
+[22:02:27] [Async Chat Thread - #4/INFO]: <BearFromMars> wya?
+[22:02:33] [Async Chat Thread - #4/INFO]: <Creeper_Peace> ye
+[22:02:37] [Async Chat Thread - #4/INFO]: <BearFromMars> wya?
+[22:02:59] [Async Chat Thread - #4/INFO]: <BearFromMars> ???
+[22:03:02] [Async Chat Thread - #4/INFO]: <Creeper_Peace> idk what that means my iq is -4
+[22:03:07] [Async Chat Thread - #4/INFO]: <BearFromMars> where ya at
+[22:03:19] [Async Chat Thread - #4/INFO]: <Creeper_Peace> im pretty lost
+[22:03:23] [Async Chat Thread - #4/INFO]: <BearFromMars> coords?
+[22:03:30] [Async Chat Thread - #4/INFO]: <Creeper_Peace> 64 -575
+[22:03:36] [Async Chat Thread - #4/INFO]: <BearFromMars> jesus
+[22:03:42] [Async Chat Thread - #4/INFO]: <BearFromMars> come to -124 63 -444
+[22:04:41] [Server thread/INFO]: BearFromMars issued server command: /gamerule doInsomnia
+[22:04:46] [Async Chat Thread - #5/INFO]: <BearFromMars> no phamtoms btw
+[22:04:53] [Async Chat Thread - #5/INFO]: <Creeper_Peace> YES
+[22:05:03] [Server thread/INFO]: BearFromMars issued server command: /gamerule disableElytraMovementCheck true
+[22:05:03] [Server thread/INFO]: [BearFromMars: Gamerule disableElytraMovementCheck is now set to: true]
+[22:05:15] [Server thread/INFO]: BearFromMars issued server command: /gamerule drowningDamage false
+[22:05:15] [Server thread/INFO]: [BearFromMars: Gamerule drowningDamage is now set to: false]
+[22:05:24] [Server thread/INFO]: BearFromMars issued server command: /gamerule forgiveDeadPlayers
+[22:05:28] [Server thread/INFO]: BearFromMars issued server command: /gamerule forgiveDeadPlayers false
+[22:05:28] [Server thread/INFO]: [BearFromMars: Gamerule forgiveDeadPlayers is now set to: false]
+[22:05:41] [Async Chat Thread - #5/INFO]: <BearFromMars> btw forgiveDeadPlayers is off
+[22:05:47] [Async Chat Thread - #5/INFO]: <BearFromMars> and universalAnger is on
+[22:05:51] [Async Chat Thread - #5/INFO]: <Creeper_Peace> oh
+[22:06:02] [Async Chat Thread - #5/INFO]: <BearFromMars> if u anger a golem, it will be angry always
+[22:06:08] [Async Chat Thread - #5/INFO]: <BearFromMars> and it will attacxk other players
+[22:06:30] [Async Chat Thread - #5/INFO]: <BearFromMars> oh
+[22:06:41] [Async Chat Thread - #5/INFO]: <Creeper_Peace> thanks
+[22:07:09] [Async Chat Thread - #5/INFO]: <BearFromMars> wut
+[22:07:14] [Async Chat Thread - #5/INFO]: <BearFromMars> oj
+[22:07:16] [Async Chat Thread - #5/INFO]: <BearFromMars> flesh
+[22:07:33] [Server thread/INFO]: BearFromMars issued server command: /tps
+[22:08:09] [Async Chat Thread - #5/INFO]: <BearFromMars> tbh i dont think cane grows on sand
+[22:08:21] [Async Chat Thread - #5/INFO]: <Creeper_Peace> it does
+[22:08:25] [Async Chat Thread - #5/INFO]: <BearFromMars> it slow then
+[22:08:33] [Server thread/INFO]: BearFromMars issued server command: /gamerule randomTickSpeed
+[22:08:35] [Server thread/INFO]: BearFromMars issued server command: /gamerule randomTickSpeed 5
+[22:08:35] [Server thread/INFO]: [BearFromMars: Gamerule randomTickSpeed is now set to: 5]
+[22:08:43] [Async Chat Thread - #5/INFO]: <Creeper_Peace> there's a rumor that it actually grows quicker on sand, it's the same speed
+[22:08:53] [Async Chat Thread - #5/INFO]: <BearFromMars> weird then
+[22:09:08] [Async Chat Thread - #5/INFO]: <BearFromMars> we need coal lol
+[22:09:30] [Server thread/INFO]: BearFromMars issued server command: /data merge entity Creeper_Peace
+[22:09:37] [Server thread/INFO]: BearFromMars issued server command: /data merge entity Creeper_Peace {Handtems:1}
+[22:10:30] [Async Chat Thread - #6/INFO]: <Creeper_Peace> making charcoal
+[22:10:42] [Async Chat Thread - #6/INFO]: <BearFromMars> o
+[22:10:45] [Async Chat Thread - #6/INFO]: <BearFromMars> need torches
+[22:10:52] [Async Chat Thread - #6/INFO]: <Creeper_Peace> charcoal works
+[22:11:00] [Async Chat Thread - #6/INFO]: <BearFromMars> found coal
+[22:11:04] [Async Chat Thread - #6/INFO]: <Creeper_Peace> noice
+[22:11:10] [Async Chat Thread - #6/INFO]: <BearFromMars> just dug down
+[22:11:13] [Async Chat Thread - #6/INFO]: <BearFromMars> 2x1
+[22:11:32] [Async Chat Thread - #6/INFO]: <Creeper_Peace> coal is very common, but if your desprite make charcoal
+[22:11:40] [Async Chat Thread - #6/INFO]: <BearFromMars> ye
+[22:13:01] [Async Chat Thread - #7/INFO]: <BearFromMars> gold pog
+[22:13:10] [Async Chat Thread - #7/INFO]: <Creeper_Peace> dont mine it
+[22:13:13] [Async Chat Thread - #7/INFO]: <BearFromMars> need iron ;-;
+[22:13:16] [Async Chat Thread - #7/INFO]: <Creeper_Peace> ye
+[22:13:21] [Async Chat Thread - #7/INFO]: <BearFromMars> good thing theres 2
+[22:13:31] [Async Chat Thread - #7/INFO]: <BearFromMars> more
+[22:13:47] [Async Chat Thread - #7/INFO]: <BearFromMars> or 3?
+[22:13:52] [Async Chat Thread - #7/INFO]: <BearFromMars> or 4!!
+[22:14:07] [Server thread/INFO]: BearFromMars issued server command: /give @s raw_iron 19
+[22:14:07] [Server thread/INFO]: [BearFromMars: Gave 19 [Raw Iron] to BearFromMars]
+[22:14:12] [Async Chat Thread - #7/INFO]: <BearFromMars> got iron anyway
+[22:14:14] [Async Chat Thread - #7/INFO]: <BearFromMars> pick broke
+[22:14:20] [Async Chat Thread - #7/INFO]: <Creeper_Peace> noic
+[22:14:25] [Async Chat Thread - #7/INFO]: <BearFromMars> need furenace
+[22:14:42] [Async Chat Thread - #7/INFO]: <Creeper_Peace> have a few at home
+[22:15:35] [Async Chat Thread - #7/INFO]: <BearFromMars> there u go
+[22:15:38] [Async Chat Thread - #7/INFO]: <Creeper_Peace> noi
+[22:16:44] [Async Chat Thread - #8/INFO]: <BearFromMars> ghad genius idea
+[22:16:49] [Async Chat Thread - #8/INFO]: <BearFromMars> we have sand and gp
+[22:16:54] [Async Chat Thread - #8/INFO]: <BearFromMars> why not tnt holes for ores
+[22:17:09] [Async Chat Thread - #8/INFO]: <Creeper_Peace> tnt doesnt blow up stone that well
+[22:17:14] [Async Chat Thread - #8/INFO]: <BearFromMars> o
+[22:17:22] [Async Chat Thread - #8/INFO]: <BearFromMars> well its the best optio nrn
+[22:17:22] [Async Chat Thread - #8/INFO]: <Creeper_Peace> it'll make 1 2x2 area at max
+[22:17:27] [Async Chat Thread - #8/INFO]: <BearFromMars> oh
+[22:17:45] [Async Chat Thread - #8/INFO]: <BearFromMars> still
+[22:17:52] [Async Chat Thread - #8/INFO]: <BearFromMars> we havre pretty much all the sand
+[22:18:27] [Async Chat Thread - #8/INFO]: <BearFromMars> brb updating ym github, gonna upload backups
+[22:18:29] [Server thread/INFO]: BearFromMars lost connection: Disconnected
+[22:18:29] [Server thread/INFO]: BearFromMars left the game
+[22:19:58] [Async Chat Thread - #9/INFO]: <Creeper_Peace> doin ya mom
+[22:20:05] [Async Chat Thread - #9/INFO]: <Creeper_Peace> doin doin ya mom
+[22:20:22] [Server thread/INFO]: Creeper_Peace has made the advancement [Acquire Hardware]
+[22:20:59] [Server thread/INFO]: Creeper_Peace has made the advancement [Isn't It Iron Pick]
+[22:22:19] [Server thread/INFO]: Creeper_Peace issued server command: /discord
+[22:22:19] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'discord' in plugin DiscordSRV v1.22.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchCommand(CraftServer.java:764) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:1944) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1783) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1764) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:46) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:30) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1124) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1117) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandler.awaitTasks(SourceFile:134) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1101) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1030) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:307) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:?]
+	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:?]
+	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:?]
+	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:154) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:104) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at github.scarsz.discordsrv.DiscordSRV.onCommand(DiscordSRV.java:1452) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	... 19 more
+[22:22:25] [Server thread/INFO]: Creeper_Peace issued server command: /discordsrv
+[22:22:25] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'discordsrv' in plugin DiscordSRV v1.22.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchCommand(CraftServer.java:764) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:1944) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1783) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1764) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:46) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:30) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1124) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1117) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandler.awaitTasks(SourceFile:134) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1101) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1030) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:307) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:?]
+	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:?]
+	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:?]
+	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:154) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:104) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at github.scarsz.discordsrv.DiscordSRV.onCommand(DiscordSRV.java:1452) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	... 19 more
+[22:22:28] [Server thread/INFO]: Creeper_Peace issued server command: /discordsrv:discord
+[22:22:28] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'discordsrv:discord' in plugin DiscordSRV v1.22.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchCommand(CraftServer.java:764) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:1944) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1783) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1764) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:46) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:30) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1124) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1117) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandler.awaitTasks(SourceFile:134) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1101) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1030) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:307) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:?]
+	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:?]
+	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:?]
+	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:154) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:104) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at github.scarsz.discordsrv.DiscordSRV.onCommand(DiscordSRV.java:1452) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	... 19 more
+[22:22:30] [Server thread/INFO]: Creeper_Peace issued server command: /discordsrv:discordsrv
+[22:22:30] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'discordsrv:discordsrv' in plugin DiscordSRV v1.22.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchCommand(CraftServer.java:764) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:1944) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1783) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1764) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:46) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:30) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1124) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1117) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeAll(SourceFile:110) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1100) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1030) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:307) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:?]
+	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:?]
+	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:?]
+	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:154) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:104) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at github.scarsz.discordsrv.DiscordSRV.onCommand(DiscordSRV.java:1452) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot_server-1.17.jar:3124-Spigot-66f9d3c-384e116]
+	... 19 more
+[22:22:40] [Async Chat Thread - #10/INFO]: <Creeper_Peace> discord do you
+[22:22:44] [Async Chat Thread - #10/INFO]: <Creeper_Peace> have
+[22:24:08] [Server thread/INFO]: Creeper_Peace has made the advancement [Sweet Dreams]
+[22:24:35] [Server thread/INFO]: Creeper_Peace issued server command: /about
+[22:26:55] [Async Chat Thread - #11/INFO]: <Creeper_Peace> if you can read this, i gtg
+[22:27:43] [Server thread/INFO]: Creeper_Peace lost connection: Disconnected
+[22:27:43] [Server thread/INFO]: Creeper_Peace left the game
